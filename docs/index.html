@@ -7,11 +7,29 @@
     <link rel="shortcut icon" href="img/smart-factory.png" type="image/x-icon">
    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <img src="img/smart-factory.png" width="100">
     <h1>FactoryHub</h1>
     <p>Ливарне обладнання</p>
     <p>Металорізальні верстати</p>
     <p>Ручні інструменти для роботи з металом</p>
+
+<button id="btn-1">
+    Ливарне обладнання
+</button>
+<button id="btn-2">
+    Металорізальні верстати
+</button>
+<button id="btn-3">
+    Ручні інструменти для роботи з металом
+</button>
+<script>
+    var btn1 = document.getElementById("btn-1");
+    btn1.addEventListener("click", () => {
+        alert("Ливарне обладнання");
+    })
+</script>
+
 </body>
 </html>

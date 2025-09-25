@@ -1,3 +1,32 @@
 body {background-color: rgb(237, 189, 98);}
 
 p {font-size: 130%;}
+
+#btn-1 {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    border-radius: 8px;
+    padding: 10px 20px; ;
+    border: none;
+    cursor: pointer;
+}
+#btn-2 {
+    background-color: rgb(132, 131, 131);
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    border-radius: 8px;
+    padding: 10px 20px; ;
+    border: none;
+    cursor: pointer;
+}
+#btn-3 {
+    background-color: rgb(57, 90, 255);
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    border-radius: 8px;
+    padding: 10px 20px; ;
+    border: none;
+    cursor: pointer;
+
+}
